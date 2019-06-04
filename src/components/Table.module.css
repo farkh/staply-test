@@ -1,0 +1,46 @@
+.table {
+  background: #fefefe;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.06);
+  font-weight: 500;
+  font-size: 14px;
+  border: 1px solid #e5e5e5;
+  width: 100%;
+}
+
+.titleRow {
+  text-transform: uppercase;
+  background-color: #f9f9f9;
+  font-size: 11px;
+  letter-spacing: 0.3px;
+}
+
+.titleRow > .field {
+  color: #333;
+}
+
+.field {
+  overflow: hidden;
+  padding: 10px 12px;
+  border-bottom: 1px solid #e5e5e5;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #b6b6b5;
+}
+
+.fieldActive {
+  color: #333;
+}
+
+.table tr:last-child .field {
+  border-bottom: none;
+}
+
+.rightField {
+  width: 100px;
+  text-align: right;
+  border-left: 1px solid #e5e5e5;
+}
+
+.input {
+  margin-right: 8px;
+}

@@ -1,0 +1,37 @@
+.topBlock {
+  padding: 18px 12px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.bottomBlock {
+  padding: 18px 12px;
+  background: #f9f9f9;
+}
+
+.title {
+  font-size: 13px;
+  margin-bottom: 6px;
+  line-height: 16px;
+}
+
+.row {
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.boldRow > .rowLeft {
+  color: #333;
+}
+
+.rowLeft {
+  color: #959595;
+}
+
+.rowRight {
+  color: #333;
+  white-space: nowrap;
+  padding-left: 20px;
+}
